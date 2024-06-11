@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Regression Suite" verbose="4">
+<listeners>
+<listener class-name="com.qa.igProject.listerners.ExtentReportListener"></listener>
+</listeners>
+
+	<test name="MainTopFundraiserTest">
+		<classes>
+			<class name="com.qa.igProject.tests.MainTopFundraiserTest" />
+		</classes>
+	</test>
+	</suite>

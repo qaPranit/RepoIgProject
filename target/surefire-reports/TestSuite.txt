@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 11.882 s <<< FAILURE! - in TestSuite
+homePageTitleTest(com.qa.igProject.tests.HomePageTest)  Time elapsed: 0.039 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.qa.igProject.pages.HomePage.getHomePageTitle()" because "this.hp" is null
+	at com.qa.igProject.tests.HomePageTest.homePageTitleTest(HomePageTest.java:13)
+
+isStartFRMainButtonDisplayedTest(com.qa.igProject.tests.HomePageTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.qa.igProject.pages.HomePage.isStartFRMainButtonDisplayed()" because "this.hp" is null
+	at com.qa.igProject.tests.HomePageTest.isStartFRMainButtonDisplayedTest(HomePageTest.java:19)
+
+startFr3Test(com.qa.igProject.tests.HomePageTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.qa.igProject.pages.HomePage.clickStartFr3Button()" because "this.hp" is null
+	at com.qa.igProject.tests.HomePageTest.startFr3Test(HomePageTest.java:24)
+

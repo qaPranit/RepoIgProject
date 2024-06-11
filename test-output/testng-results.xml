@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-08T21:29:54 IST" name="TestNG Regression Suite" finished-at="2024-06-08T21:30:24 IST" duration-ms="30127">
+    <groups>
+    </groups>
+    <test started-at="2024-06-08T21:29:54 IST" name="MainTopFundraiserTest" finished-at="2024-06-08T21:30:24 IST" duration-ms="30127">
+      <class name="com.qa.igProject.tests.MainTopFundraiserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.igProject.tests.MainTopFundraiserTest@55322aab]" started-at="2024-06-08T21:29:54 IST" name="setup" finished-at="2024-06-08T21:30:05 IST" duration-ms="11680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getMainTopFundraiserObject()[pri:0, instance:com.qa.igProject.tests.MainTopFundraiserTest@55322aab]" started-at="2024-06-08T21:30:05 IST" name="getMainTopFundraiserObject" finished-at="2024-06-08T21:30:12 IST" duration-ms="6994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMainTopFundraiserObject -->
+        <test-method signature="mainDonateSpcTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.igProject.tests.MainTopFundraiserTest@55322aab]" started-at="2024-06-08T21:30:14 IST" name="mainDonateSpcTest" data-provider="getSPCData" finished-at="2024-06-08T21:30:22 IST" duration-ms="8425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test donation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test.donation@impactguru.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9168261197]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainDonateSpcTest -->
+        <test-method signature="verifyUrlUtmTest()[pri:0, instance:com.qa.igProject.tests.MainTopFundraiserTest@55322aab]" started-at="2024-06-08T21:30:23 IST" name="verifyUrlUtmTest" finished-at="2024-06-08T21:30:23 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrlUtmTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.igProject.tests.MainTopFundraiserTest@55322aab]" started-at="2024-06-08T21:30:23 IST" name="tearDown" finished-at="2024-06-08T21:30:24 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.igProject.tests.MainTopFundraiserTest -->
+    </test> <!-- MainTopFundraiserTest -->
+  </suite> <!-- TestNG Regression Suite -->
+</testng-results>

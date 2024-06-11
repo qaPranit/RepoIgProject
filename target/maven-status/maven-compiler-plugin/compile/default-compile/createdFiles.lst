@@ -1,0 +1,10 @@
+com\qa\igProject\pages\HomePage.class
+com\qa\igProject\util\ExcelUtil.class
+com\qa\igProject\pages\PracticeClass.class
+com\qa\igProject\factory\DriverFactory.class
+com\qa\igProject\constants\MainTopFundraiserConstants.class
+com\qa\igProject\pages\MainTopFundraiserPage.class
+com\qa\igProject\constants\StartFr3Constants.class
+com\qa\igProject\constants\HomePageConstants.class
+com\qa\igProject\util\ElementUtil.class
+com\qa\igProject\pages\LoginPage.class
